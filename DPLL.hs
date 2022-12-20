@@ -30,11 +30,7 @@ data Lit =
 type CNF = [Lit]
   
 
-type Clauses = MinQ.MinQueue CNF
-
-
-instance Ord CNF where
-    
+type Clauses = [CNF]
 
 
 type Symbols = Set.Set String
